@@ -1,0 +1,22 @@
+# Downloaded third-party datasets
+/data/
+
+# Intermediate and large analysis outputs
+/results/*
+!/results/sample_qc.csv
+!/results/PCA_coordinates.csv
+!/results/sample_correlations.csv
+!/results/DESeq2_significant_genes.csv
+!/results/Annotated_significant_genes.csv
+!/results/Biological_signature_genes.csv
+!/results/R_session_info.txt
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# System files
+.DS_Store
+Thumbs.db
